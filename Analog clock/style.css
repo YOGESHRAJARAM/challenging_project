@@ -55,6 +55,7 @@ body{
     text-align: center;
     font-size: 25px;
     transform: rotate(var(--rotate));
+    padding: 10px;
 }
 .number-1{ --rotate: 30deg;}
 .number-2{ --rotate: 60deg;}
@@ -100,4 +101,37 @@ body{
     width:10px;
     height:25%;
     --rotation:280;
+}
+.sepnum6{
+    transform: rotate(180deg);
+}
+.sepnum1{
+    transform: rotate(-30deg);
+}
+.sepnum2{
+    transform: rotate(-60deg);
+}
+.sepnum3{
+    transform: rotate(-90deg);
+}
+.sepnum4{
+    transform: rotate(-120deg);
+}
+.sepnum5{
+    transform: rotate(-150deg);
+}
+.sepnum7{
+    transform: rotate(-210deg);
+}
+.sepnum8{
+    transform: rotate(-240deg);
+}
+.sepnum9{
+    transform: rotate(-270deg);
+}
+.sepnum10{
+    transform: rotate(-300deg);
+}
+.sepnum11{
+    transform: rotate(-330deg);
 }
