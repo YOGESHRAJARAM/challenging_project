@@ -5,8 +5,7 @@ const btnreset =document.querySelector('.reset');
 let hrs=min=sec=ms=0,starttimer;
 
 btnStart.addEventListener('click',()=>{
-    btnStart.classList.add('start-active');
-    btnstop.classList.remove('stop-active');
+   
 
     starttimer=setInterval(()=>{
         ms++;
@@ -31,16 +30,14 @@ btnStart.addEventListener('click',()=>{
 btnstop.addEventListener('click',()=>{
  clearInterval(starttimer);
  updateDisplay();
- btnStart.classList.remove('start-active');
- btnstop.classList.add('stop-active');
+ 
 })
 
 btnreset.addEventListener('click',()=>{
     hrs=min=sec=ms=0;
     clearInterval(starttimer);
     updateDisplay();
-    btnStart.classList.remove('start-active');
-    btnstop.classList.remove('stop-active');
+    
 })
 
 function updateDisplay(){
